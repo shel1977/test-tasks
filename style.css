@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.content {
+    margin: 0px auto;
+    display: grid;
+    height: 100vh;
+    grid-template-areas:    "task_1 task_1 task_1"
+                            "task_2 task_3 task_4"
+                            "task_5 task_5 task_5";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    align-items: stretch;
+}
+.question {
+    color: #383838;
+    font-style: italic;
+    font-size: 12pt;
+    margin: 16px;
+}
+.task_1 {
+    grid-area: task_1;
+    background-color: aliceblue;
+    text-align: center;
+}
+.task_2 {
+    grid-area: task_2;
+    background-color: aliceblue;
+    text-align: center;
+}
+.task_3 {
+    grid-area: task_3;
+    background-color: aliceblue;
+    text-align: center;
+}
+.task_4 {
+    grid-area: task_4;
+    background-color: aliceblue;
+    text-align: center;
+}
+.task_5 {
+    grid-area: task_5;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.input_form {
+    border: 1px solid red;
+    width: 220px;
+    height: 40px;
+}
+
+.input_button {
+    background-color: green;
+    color: white;
+    width: 80px;
+    height: 40px;
+
+}
+.simle_button {
+    background-color: #383838;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 16px;
+}
+
+.input_form_task_4 {
+    border: 1px solid #383838;
+    width: 80px;
+    height: 40px;
+}
+.output_task_4 {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    border-bottom: 1px solid #383838;
+}
+.array_input_form {
+    display: inline-block;
+    width: 220px;
+    height: 40px;
+    border: 1px solid #383838;
+    margin-right: 16px;
+}
+.time_input_form {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    border: 1px solid #383838;
+    margin-right: 16px;
+}
+.code_text {
+    margin-left: 16px;
+    text-align: left;
+}

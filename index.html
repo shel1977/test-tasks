@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" async></script>
+
+</head>
+<body>
+<div class="content">
+    <div class="task_1">
+        <div class="question">&laquo;Создать поле ввода и&nbsp;кнопку найти!<br>
+            Стилизация: кнопка должна быть зеленая, вокруг инпута должна быть красная граница, размер
+            кнопки и&nbsp;инпута&nbsp;&mdash; больше стандартного<br>
+            JS: кликаем по&nbsp;кнопке&nbsp;&mdash; видим в&nbsp;alert-е то, что введено в&nbsp;поле ввода<br>
+            Если ввести в&nbsp;поиск слово google, нужно показать в&nbsp;алерте &bdquo;Yandex круче.
+            Но&nbsp;это не&nbsp;точно&ldquo;&raquo;<br>
+        </div>
+        <div class="input">
+            <input type="text" class="input_form" id='inputArea'>
+            <button class="input_button" id='inputButton'>FIND</button>
+        </div>
+    </div>
+
+    <div class="task_2">
+        <div class="question">&laquo;Создать функцию superSum, которая будет в&nbsp;алерте показывать сумму
+            ЛЮБЫХ двух чисел&raquo;<br>
+        </div>
+        <div>
+            <button class="simle_button" id="functionSum">Сумма чисел</button>
+        </div>
+    </div>
+
+    <div class="task_3">
+        <div class="question">&laquo;Создать массив объектов. 3-4&nbsp;объекта,
+            каждый имеет свойства name и&nbsp;age&raquo;<br>
+        </div>
+        <div class="code_text"><code>
+            let arrayPeople = [];<br>
+            arrayPeople[0] = {name: 'Tom', age: 30,};<br>
+            arrayPeople[1] = {name: 'Jay', age: 20,};<br>
+            arrayPeople[2] = {name: 'Tamy', age: 22,};<br>
+        </code>
+        </div>
+    </div>
+
+    <div class="task_4">
+        <div class="question">&laquo;Создать 2&nbsp;переменные a&nbsp;и&nbsp;b...
+            присвоить им&nbsp;любые значения. Потом программно поменять эти значения местами.&raquo;<br>
+        </div>
+        <div>
+            <span>A: <input type="text" class="input_form_task_4" id='inputArea_A'></span>
+            <span>B: <input type="text" class="input_form_task_4" id='inputArea_B'></span>
+            <button class="simle_button" id='input_button_task_4'>CHANGE</button>
+        </div>
+        <div>
+            <span>A: <div class="output_task_4"><div id='outputArea_A'><p>a = </p></div></div></span>
+            <span>B: <div class="output_task_4"><div id='outputArea_B'><p>b = </p></div></div></span>
+            <button class="simle_button" id='reset_button_task_4'>RESET</button>
+        </div>
+    </div>
+
+    <div class="task_5">
+        <div class="question">&laquo;Создать массив из&nbsp;чисел в&nbsp;перемешку (не&nbsp;отсортированы).
+            С&nbsp;помощью цикла for найти максимальный элемент в&nbsp;массиве.<br>
+            Оформить алгоритм поиска максимального числа в&nbsp;массиве как функцию findMax
+            (чтобы можно было передавать в&nbsp;неё любой массив чисел, а&nbsp;на&nbsp;выходе
+            она возвращала нам максимальное число из&nbsp;массива).<br>
+            Показать alert с&nbsp;результатом поиска не&nbsp;сразу, а&nbsp;через &bdquo;N&ldquo;
+            секунды после нажатия.&raquo;<br>
+        </div>
+        <div>
+            <span>Числа через запятую: <input type="text" class="array_input_form" id='array_input_area'></span>
+            <span>Задержка, сек: <input type="text" class="time_input_form" id='time_input_area'></span>
+            <button class="simle_button" id='array_input_button'>findMax</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
