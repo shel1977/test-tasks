@@ -42,7 +42,7 @@ document.getElementById('functionSum').addEventListener('click', superSum);
 findMax = () => {
     let getNum = document.getElementById('array_input_area').value;
     let newNumArray = getNum.split(',');
-    let convertToNum = newNumArray.map(function(item) {
+    let convertToNum = newNumArray.map(function(item) {   //convert stroke to num
         return +item;
     });
     let bigValue = convertToNum[0];
@@ -92,6 +92,3 @@ function removeValue (){
 document.getElementById('input_button_task_4').addEventListener('click', revertValue);
 document.getElementById('reset_button_task_4').addEventListener('click', removeValue);
 
-let task_1_show_code = document.createElement('div');
-div.className = "alert";
-div.innerHTML = "<strong>Всем привет!</strong> Вы прочитали важное сообщение.";
